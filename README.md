@@ -15,3 +15,7 @@ To change the data, just edit the file and overwrite the existing data with the 
      --data '{"name": "alice"}'
   3. Access your GraphQL endpoint:
      https://mockend.com/org/repo/graphql
+
+### More information:
+
+Go to the docs: https://docs.mockend.com/
