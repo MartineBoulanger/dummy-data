@@ -6,15 +6,15 @@ To change the data, just edit the file and overwrite the existing data with the 
 ### How to access the mockend?
 
   1. List your fake users with a GET request:
-     curl https://mockend.com/org/repo/users
+     curl https://mockend.com/MartineBoulanger/dummy-data/users
   2. Fake a creation with a POST
      (don't worry changes aren't persisted):
-     curl https://mockend.com/org/repo/users \
+     curl https://mockend.com/MartineBoulanger/dummy-data/users \
      -X POST \
      -H "Content-Type: application/json" \
      --data '{"name": "alice"}'
   3. Access your GraphQL endpoint:
-     https://mockend.com/org/repo/graphql
+     https://mockend.com/MartineBoulanger/dummy-data/graphql
 
 ### More information:
 
