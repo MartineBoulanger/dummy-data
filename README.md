@@ -5,5 +5,5 @@ To change the data, just edit the file and overwrite the existing data with the 
 
 ### How to connect to the json server with this specific data?
 
-Just use this link:
+Just use this link to fetch some data:
 https://my-json-server.typicode.com/MartineBoulanger/dummy-data
