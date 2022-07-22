@@ -3,7 +3,15 @@
 This is just one json file with some dummy data, so I can play around in either React, Next or VSF2.
 To change the data, just edit the file and overwrite the existing data with the new data.
 
-### How to connect to the json server with this specific data?
+### How to access the mockend?
 
-Just use this link to fetch some data:
-https://my-json-server.typicode.com/MartineBoulanger/dummy-data
+  1. List your fake users with a GET request:
+     curl https://mockend.com/org/repo/users
+  2. Fake a creation with a POST
+     (don't worry changes aren't persisted):
+     curl https://mockend.com/org/repo/users \
+     -X POST \
+     -H "Content-Type: application/json" \
+     --data '{"name": "alice"}'
+  3. Access your GraphQL endpoint:
+     https://mockend.com/org/repo/graphql
