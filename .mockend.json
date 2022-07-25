@@ -32,7 +32,7 @@
       }
     },
     "content": { "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
-    "photo": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" }
+    "photo": { "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080" },
     "comments": {
       "hasMany": "Comment"
     }
