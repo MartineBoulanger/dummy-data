@@ -43,7 +43,7 @@
     "post": {
       "belongsTo": "Post"
     }
-  }
+  },
   "Todo": {
     "userId": { "int": { "min": 1, "max": 100 } },
     "title": { "loremWords": { "minLength": 2, "maxLength": 5 } },
