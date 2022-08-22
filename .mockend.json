@@ -46,7 +46,7 @@
   },
   "Todo": {
     "userId": { "int": { "min": 1, "max": 100 } },
-    "title": { "loremWords": { "minLength": 5, "maxLength": 10 } },
+    "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
     "completed": { "boolean": {} }
   }
 }
